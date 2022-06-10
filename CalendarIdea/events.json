@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "0",
+      "title": "Open Volleyball",
+      "description": "Come join us for open volleyball!",
+      "latitude": 26.26607,
+      "longitude": -80.260395,
+      "timestamp": 1657501200
+    },
+    {
+      "id": "1",
+      "title": "Open Soccer",
+      "description": "Come join us for open soccer!",
+      "latitude": 26.26607,
+      "longitude": -80.260395,
+      "timestamp": 1657501200
+    },
+    {
+      "id": "2",
+      "title": "Open Football",
+      "description": "Come join us for open football!",
+      "latitude": 26.26607,
+      "longitude": -80.260395,
+      "timestamp": 1657501200
+    }
+  ]
+}

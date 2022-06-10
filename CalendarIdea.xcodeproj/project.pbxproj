@@ -14,6 +14,18 @@
 		CFEB18AC284EE1CC00E0BD26 /* CalendarIdeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18AB284EE1CC00E0BD26 /* CalendarIdeaTests.swift */; };
 		CFEB18B6284EE1CC00E0BD26 /* CalendarIdeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18B5284EE1CC00E0BD26 /* CalendarIdeaUITests.swift */; };
 		CFEB18B8284EE1CC00E0BD26 /* CalendarIdeaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18B7284EE1CC00E0BD26 /* CalendarIdeaUITestsLaunchTests.swift */; };
+		CFEB18C5284EE30F00E0BD26 /* CalendarEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18C4284EE30F00E0BD26 /* CalendarEventView.swift */; };
+		CFEB18C728502C5F00E0BD26 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = CFEB18C628502C5F00E0BD26 /* events.json */; };
+		CFEB18C928502C7B00E0BD26 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18C828502C7B00E0BD26 /* CalendarEvent.swift */; };
+		CFEB18D32850581800E0BD26 /* CalendarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18D22850581800E0BD26 /* CalendarDetailView.swift */; };
+		CFEB18D5285104E900E0BD26 /* YourScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18D4285104E900E0BD26 /* YourScheduleView.swift */; };
+		CFEB18D8285136A600E0BD26 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18D7285136A600E0BD26 /* AddEvent.swift */; };
+		CFEB18DA2851420800E0BD26 /* AddCalendarEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18D92851420800E0BD26 /* AddCalendarEventView.swift */; };
+		CFEB18DE2853F80700E0BD26 /* YourSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18DD2853F80700E0BD26 /* YourSubscriptionView.swift */; };
+		CFEB18E02853FAAE00E0BD26 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18DF2853FAAE00E0BD26 /* DiscoverView.swift */; };
+		CFEB18E22853FAB800E0BD26 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18E12853FAB800E0BD26 /* SearchView.swift */; };
+		CFEB18E42853FAC100E0BD26 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18E32853FAC100E0BD26 /* AccountView.swift */; };
+		CFEB18E62853FEC600E0BD26 /* EventHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18E52853FEC600E0BD26 /* EventHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,18 @@
 		CFEB18B1284EE1CC00E0BD26 /* CalendarIdeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarIdeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEB18B5284EE1CC00E0BD26 /* CalendarIdeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarIdeaUITests.swift; sourceTree = "<group>"; };
 		CFEB18B7284EE1CC00E0BD26 /* CalendarIdeaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarIdeaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFEB18C4284EE30F00E0BD26 /* CalendarEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventView.swift; sourceTree = "<group>"; };
+		CFEB18C628502C5F00E0BD26 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		CFEB18C828502C7B00E0BD26 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		CFEB18D22850581800E0BD26 /* CalendarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDetailView.swift; sourceTree = "<group>"; };
+		CFEB18D4285104E900E0BD26 /* YourScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourScheduleView.swift; sourceTree = "<group>"; };
+		CFEB18D7285136A600E0BD26 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
+		CFEB18D92851420800E0BD26 /* AddCalendarEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCalendarEventView.swift; sourceTree = "<group>"; };
+		CFEB18DD2853F80700E0BD26 /* YourSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourSubscriptionView.swift; sourceTree = "<group>"; };
+		CFEB18DF2853FAAE00E0BD26 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		CFEB18E12853FAB800E0BD26 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CFEB18E32853FAC100E0BD26 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		CFEB18E52853FEC600E0BD26 /* EventHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +119,13 @@
 		CFEB1898284EE1CB00E0BD26 /* CalendarIdea */ = {
 			isa = PBXGroup;
 			children = (
-				CFEB1899284EE1CB00E0BD26 /* CalendarIdeaApp.swift */,
-				CFEB189B284EE1CB00E0BD26 /* ContentView.swift */,
+				CFEB18D62851369B00E0BD26 /* Controller */,
+				CFEB18CB28502C9700E0BD26 /* View */,
+				CFEB18CA28502C8500E0BD26 /* Model */,
 				CFEB189D284EE1CC00E0BD26 /* Assets.xcassets */,
+				CFEB1899284EE1CB00E0BD26 /* CalendarIdeaApp.swift */,
 				CFEB189F284EE1CC00E0BD26 /* CalendarIdea.entitlements */,
+				CFEB18C628502C5F00E0BD26 /* events.json */,
 				CFEB18A0284EE1CC00E0BD26 /* Preview Content */,
 			);
 			path = CalendarIdea;
@@ -127,6 +154,39 @@
 				CFEB18B7284EE1CC00E0BD26 /* CalendarIdeaUITestsLaunchTests.swift */,
 			);
 			path = CalendarIdeaUITests;
+			sourceTree = "<group>";
+		};
+		CFEB18CA28502C8500E0BD26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFEB18C828502C7B00E0BD26 /* CalendarEvent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFEB18CB28502C9700E0BD26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFEB189B284EE1CB00E0BD26 /* ContentView.swift */,
+				CFEB18D4285104E900E0BD26 /* YourScheduleView.swift */,
+				CFEB18D22850581800E0BD26 /* CalendarDetailView.swift */,
+				CFEB18C4284EE30F00E0BD26 /* CalendarEventView.swift */,
+				CFEB18D92851420800E0BD26 /* AddCalendarEventView.swift */,
+				CFEB18DD2853F80700E0BD26 /* YourSubscriptionView.swift */,
+				CFEB18DF2853FAAE00E0BD26 /* DiscoverView.swift */,
+				CFEB18E12853FAB800E0BD26 /* SearchView.swift */,
+				CFEB18E32853FAC100E0BD26 /* AccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFEB18D62851369B00E0BD26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFEB18D7285136A600E0BD26 /* AddEvent.swift */,
+				CFEB18E52853FEC600E0BD26 /* EventHelper.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +295,7 @@
 			files = (
 				CFEB18A2284EE1CC00E0BD26 /* Preview Assets.xcassets in Resources */,
 				CFEB189E284EE1CC00E0BD26 /* Assets.xcassets in Resources */,
+				CFEB18C728502C5F00E0BD26 /* events.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFEB18E42853FAC100E0BD26 /* AccountView.swift in Sources */,
+				CFEB18C928502C7B00E0BD26 /* CalendarEvent.swift in Sources */,
 				CFEB189C284EE1CB00E0BD26 /* ContentView.swift in Sources */,
+				CFEB18D5285104E900E0BD26 /* YourScheduleView.swift in Sources */,
+				CFEB18D32850581800E0BD26 /* CalendarDetailView.swift in Sources */,
+				CFEB18C5284EE30F00E0BD26 /* CalendarEventView.swift in Sources */,
+				CFEB18DE2853F80700E0BD26 /* YourSubscriptionView.swift in Sources */,
+				CFEB18DA2851420800E0BD26 /* AddCalendarEventView.swift in Sources */,
+				CFEB18E02853FAAE00E0BD26 /* DiscoverView.swift in Sources */,
+				CFEB18D8285136A600E0BD26 /* AddEvent.swift in Sources */,
+				CFEB18E62853FEC600E0BD26 /* EventHelper.swift in Sources */,
 				CFEB189A284EE1CB00E0BD26 /* CalendarIdeaApp.swift in Sources */,
+				CFEB18E22853FAB800E0BD26 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
