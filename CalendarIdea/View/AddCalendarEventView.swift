@@ -23,7 +23,7 @@ struct AddCalendarEventView: View {
                 TextField("Event Description", text: $eventDescription)
                 DatePicker("Event Date and Time", selection: $eventDate)
                 Button {
-                    addEvent(eventTitle: eventTitle, eventDescription: eventDescription)
+                    addEvent(eventTitle: eventTitle, eventDescription: eventDescription, eventDate: eventDate)
                     presentationMode.wrappedValue.dismiss()
                 } label: {
                     Text("Add event")

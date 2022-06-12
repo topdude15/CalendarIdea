@@ -7,9 +7,9 @@
 
 import Foundation
 
-func addEvent(eventTitle: String, eventDescription: String){
+func addEvent(eventTitle: String, eventDescription: String, eventDate: Date){
     var events = getCalendarEvents(fileName: "events")
-    events.events.append(Event(id: UUID().uuidString, title: eventTitle, description: eventDescription, latitude: 123, longitude: 123, timestamp: NSDate().timeIntervalSince1970))
+    events.events.append(Event(id: UUID().uuidString, title: eventTitle, description: eventDescription, latitude: 123, longitude: 123, timestamp: eventDate.timeIntervalSince1970))
     
     do {
         let path = try FileManager.default

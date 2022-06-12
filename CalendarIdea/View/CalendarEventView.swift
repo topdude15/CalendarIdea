@@ -26,6 +26,7 @@ struct CalendarEventView: View {
             VStack(alignment: .leading) {
                 HStack {
                     Text(title)
+                        .font(.headline)
                     Spacer()
                     Text(eventTime)
                         .font(.footnote)
