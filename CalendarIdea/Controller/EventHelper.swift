@@ -9,6 +9,7 @@ import Foundation
 
 
 func getEventTime(timestamp: Double) -> String {
+        // getEventTime converts the timestamp of an event into a 12hr time with the local time zone
         let newDate = Date(timeIntervalSince1970: timestamp)
         let dateFormatter = DateFormatter()
         var localTimeZoneAbbreviation: String { return TimeZone.current.abbreviation() ?? "" }
@@ -19,6 +20,7 @@ func getEventTime(timestamp: Double) -> String {
 }
 
 func getEventDate(eventDate: Date) -> String {
+    // getEventDate takes a date and formats it to return the string value of the name with month and day ex. "Friday, June 10"
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "EEEE, MMMM dd"
     return dateFormatter.string(from: eventDate)
@@ -56,7 +58,6 @@ func getSeparateCalendarEvents(fileName: String) -> [Day] {
                 days.append(Day(id: Array(day.keys)[0], events: events))
             }
         }
-        // days array will be in chronological order, so we return it reversed so that the newest events will appear at the top
         return days
     } catch {
         print(error)
