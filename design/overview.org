@@ -1,0 +1,40 @@
+* Event Streamer
+  An app that helps you find things to do.
+
+** User Story
+   I wake up and decide I would like to do something today.  Reviewing my day's
+   schedule, I find that I don't have anything scheduled for today except for
+   work.
+
+   So, I open the Event Streamer app *to search for things to do today.*  I
+   find a collection of events gathered together according to my likes.  I
+   would like to do something athletic, so I review the events for that
+   category.  I see that my friend Lili *published an event* for pickup
+   pickleball later today at 6pm.  I would like to do that, so I press
+   the event and select "Add to stream."  The app adds this event to my _stream_
+   _of events for today._
+
+*** Definitions
+**** What Is A Stream?
+     A _Stream_ is a collection of events.  (What problems does this solve?
+     Can those problems be solved with one stream? -->) Multiple streams may exist
+     parallel to each other in time.  For instance, a User may have a "Work"
+     stream and a "Personal" stream with events that may occur at the same time.
+
+**** What Is An Event?
+     An _Event_ is an action taken by a User at a specific time until another
+     specific time.
+     
+**** What Is A Subscription?
+     A _Subscription_ is a place to which Events are published.
+
+*** App Functions
+**** Searches For Things To Do
+     The app can search for _Events_.  _Events_ can be searched by various
+     criteria, such as time of day, day or category.
+
+     The app searches for Events in Subscriptions.
+
+**** Publishes Events
+     The app can publish _Events_ to _Subscriptions_.
+
