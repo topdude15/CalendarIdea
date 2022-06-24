@@ -6,25 +6,23 @@
 //
 
 import SwiftUI
+import FirebaseCore
+import FirebaseAuthUI
+import FirebaseGoogleAuthUI
 
+class AppDelegate: NSObject, UIApplicationDelegate, FUIAuthDelegate {
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+      FirebaseApp.configure()
+
+
+    return true
+  }
+}
 @main
 struct CalendarIdeaApp: App {
     
-    init() {
-        do {
-            let path = try FileManager.default
-                   .url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-                   .appendingPathComponent("events.json")
-            print(path)
-            if FileManager.default.fileExists(atPath: path.path) {
-                print("File exists")
-            } else {
-                print("File does not exist")
-            }
-        } catch {
-            
-        }
-    }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
