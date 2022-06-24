@@ -31,8 +31,7 @@
 		CFEB18E42853FAC100E0BD26 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18E32853FAC100E0BD26 /* AccountView.swift */; };
 		CFEB18E62853FEC600E0BD26 /* EventHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB18E52853FEC600E0BD26 /* EventHelper.swift */; };
 		CFFBC9C52865637F00FCE00D /* CustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFBC9C42865637F00FCE00D /* CustomLoginViewController.swift */; };
-		CFFBC9C72865643000FCE00D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFFBC9C62865643000FCE00D /* GoogleService-Info.plist */; };
-		CFFBC9C92865648C00FCE00D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFFBC9C82865648C00FCE00D /* GoogleService-Info.plist */; };
+		CFFBC9CB286565D000FCE00D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFFBC9CA286565D000FCE00D /* GoogleService-Info.plist */; };
 		F7A1F6592CF4D4D760BB66B7 /* Pods_CalendarIdeaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAD2AAB11B19ED42D21019C /* Pods_CalendarIdeaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,8 +88,7 @@
 		CFEB18E32853FAC100E0BD26 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		CFEB18E52853FEC600E0BD26 /* EventHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHelper.swift; sourceTree = "<group>"; };
 		CFFBC9C42865637F00FCE00D /* CustomLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginViewController.swift; sourceTree = "<group>"; };
-		CFFBC9C62865643000FCE00D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		CFFBC9C82865648C00FCE00D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFFBC9CA286565D000FCE00D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF19B4A88CA22B40338560B0 /* Pods-CalendarIdeaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarIdeaTests.release.xcconfig"; path = "Target Support Files/Pods-CalendarIdeaTests/Pods-CalendarIdeaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,8 +174,7 @@
 				CFEB18CA28502C8500E0BD26 /* Model */,
 				CFEB189D284EE1CC00E0BD26 /* Assets.xcassets */,
 				CFEB1899284EE1CB00E0BD26 /* CalendarIdeaApp.swift */,
-				CFFBC9C62865643000FCE00D /* GoogleService-Info.plist */,
-				CFFBC9C82865648C00FCE00D /* GoogleService-Info.plist */,
+				CFFBC9CA286565D000FCE00D /* GoogleService-Info.plist */,
 				CFEB189F284EE1CC00E0BD26 /* CalendarIdea.entitlements */,
 				CFEB18C628502C5F00E0BD26 /* events.json */,
 				CFEB18A0284EE1CC00E0BD26 /* Preview Content */,
@@ -441,8 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFEB18A2284EE1CC00E0BD26 /* Preview Assets.xcassets in Resources */,
-				CFFBC9C72865643000FCE00D /* GoogleService-Info.plist in Resources */,
-				CFFBC9C92865648C00FCE00D /* GoogleService-Info.plist in Resources */,
+				CFFBC9CB286565D000FCE00D /* GoogleService-Info.plist in Resources */,
 				CFEB189E284EE1CC00E0BD26 /* Assets.xcassets in Resources */,
 				CFEB18C728502C5F00E0BD26 /* events.json in Resources */,
 			);
